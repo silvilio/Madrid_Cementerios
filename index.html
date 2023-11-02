@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1cf4ebc755b9e855860d4f9ebe32a309 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1cf4ebc755b9e855860d4f9ebe32a309" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1cf4ebc755b9e855860d4f9ebe32a309 = L.map(
+                "map_1cf4ebc755b9e855860d4f9ebe32a309",
+                {
+                    center: [40.42832460839629, -3.684773382825073],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_852ee7727dfa775733585744d988c6ec = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+            var circle_marker_50160ce7a1d639a1cd11deb323deae0c = L.circleMarker(
+                [40.395212860537896, -3.722633997992097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_f504ff5c327b8bdbe55206d17fc98dfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b76a031f00af59862e519e1f3144c3b = $(`<div id="html_1b76a031f00af59862e519e1f3144c3b" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Británico (British Cemetery)<br>Distrito: CARABANCHEL<br>Contacto: nan</div>`)[0];
+            popup_f504ff5c327b8bdbe55206d17fc98dfc.setContent(html_1b76a031f00af59862e519e1f3144c3b);
+        
+
+        circle_marker_50160ce7a1d639a1cd11deb323deae0c.bindPopup(popup_f504ff5c327b8bdbe55206d17fc98dfc)
+        ;
+
+        
+    
+    
+            circle_marker_50160ce7a1d639a1cd11deb323deae0c.bindTooltip(
+                `<div>
+                     Cementerio Británico (British Cemetery)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ca731465693c126b599020fbe3a92af9 = L.circleMarker(
+                [40.42141769194737, -3.635840245713002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_c8b7cf693dd7be269024324ca9fcc013 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28d058a80f48b42094feb7b6d1c7c400 = $(`<div id="html_28d058a80f48b42094feb7b6d1c7c400" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Civil<br>Distrito: CIUDAD LINEAL<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_c8b7cf693dd7be269024324ca9fcc013.setContent(html_28d058a80f48b42094feb7b6d1c7c400);
+        
+
+        circle_marker_ca731465693c126b599020fbe3a92af9.bindPopup(popup_c8b7cf693dd7be269024324ca9fcc013)
+        ;
+
+        
+    
+    
+            circle_marker_ca731465693c126b599020fbe3a92af9.bindTooltip(
+                `<div>
+                     Cementerio Civil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dc3ef3fe9430c8a280366c71ced70e39 = L.circleMarker(
+                [40.51804387792784, -3.787273559670704],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_7b1e4ad25a98335c50b7379ae28b872b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7866a37a5b53a3a1950e741e0cbba63f = $(`<div id="html_7866a37a5b53a3a1950e741e0cbba63f" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Cristo de El Pardo<br>Distrito: DISTRITO<br>Contacto: 915 108 469 / 91 5 108 464 (Información)</div>`)[0];
+            popup_7b1e4ad25a98335c50b7379ae28b872b.setContent(html_7866a37a5b53a3a1950e741e0cbba63f);
+        
+
+        circle_marker_dc3ef3fe9430c8a280366c71ced70e39.bindPopup(popup_7b1e4ad25a98335c50b7379ae28b872b)
+        ;
+
+        
+    
+    
+            circle_marker_dc3ef3fe9430c8a280366c71ced70e39.bindTooltip(
+                `<div>
+                     Cementerio Cristo de El Pardo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b170883d76c1e3b5f71743ec1db7731f = L.circleMarker(
+                [40.46575720133697, -3.7870639870469063],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_231b69cf470dd0cb2fc98ac0def95c45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96c4e3ef69e8f2ee6579e63bc5d5059c = $(`<div id="html_96c4e3ef69e8f2ee6579e63bc5d5059c" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de Aravaca<br>Distrito: MONCLOA-ARAVACA<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_231b69cf470dd0cb2fc98ac0def95c45.setContent(html_96c4e3ef69e8f2ee6579e63bc5d5059c);
+        
+
+        circle_marker_b170883d76c1e3b5f71743ec1db7731f.bindPopup(popup_231b69cf470dd0cb2fc98ac0def95c45)
+        ;
+
+        
+    
+    
+            circle_marker_b170883d76c1e3b5f71743ec1db7731f.bindTooltip(
+                `<div>
+                     Cementerio de Aravaca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3dbb7830d4875c5c68d2aadb2922c71c = L.circleMarker(
+                [40.48199191756723, -3.586911867934081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_064f207cab16e4b4f6df1831a7701843 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c33eae7a41cf81b776ca6dd2a29e2772 = $(`<div id="html_c33eae7a41cf81b776ca6dd2a29e2772" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de Barajas<br>Distrito: BARAJAS<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_064f207cab16e4b4f6df1831a7701843.setContent(html_c33eae7a41cf81b776ca6dd2a29e2772);
+        
+
+        circle_marker_3dbb7830d4875c5c68d2aadb2922c71c.bindPopup(popup_064f207cab16e4b4f6df1831a7701843)
+        ;
+
+        
+    
+    
+            circle_marker_3dbb7830d4875c5c68d2aadb2922c71c.bindTooltip(
+                `<div>
+                     Cementerio de Barajas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af43fe9bfd19ff2ecff440ba3275769f = L.circleMarker(
+                [40.461202022472655, -3.6408922991028665],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_13124121e695741642079059d489ec91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dacd436ba5f785656d353f81b2a1c2b6 = $(`<div id="html_dacd436ba5f785656d353f81b2a1c2b6" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de Canillas<br>Distrito: HORTALEZA<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_13124121e695741642079059d489ec91.setContent(html_dacd436ba5f785656d353f81b2a1c2b6);
+        
+
+        circle_marker_af43fe9bfd19ff2ecff440ba3275769f.bindPopup(popup_13124121e695741642079059d489ec91)
+        ;
+
+        
+    
+    
+            circle_marker_af43fe9bfd19ff2ecff440ba3275769f.bindTooltip(
+                `<div>
+                     Cementerio de Canillas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8f64dc168f8828729a25a932fc5e485c = L.circleMarker(
+                [40.44319388985589, -3.610313862882384],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_e09a693cdfd60c42b33e3cfb0ee3101b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de55a27fcff051d7e78c9bbec0f1b665 = $(`<div id="html_de55a27fcff051d7e78c9bbec0f1b665" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de Canillejas<br>Distrito: SAN BLAS-CANILLEJAS<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_e09a693cdfd60c42b33e3cfb0ee3101b.setContent(html_de55a27fcff051d7e78c9bbec0f1b665);
+        
+
+        circle_marker_8f64dc168f8828729a25a932fc5e485c.bindPopup(popup_e09a693cdfd60c42b33e3cfb0ee3101b)
+        ;
+
+        
+    
+    
+            circle_marker_8f64dc168f8828729a25a932fc5e485c.bindTooltip(
+                `<div>
+                     Cementerio de Canillejas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_54350b9e4713c55873196eb7cf331f46 = L.circleMarker(
+                [40.36734627704716, -3.7402471326342246],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_708eeeff34d8dd02e356b39f6dc5a691 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_772b9c5a31e1de49f833fca2497ce81c = $(`<div id="html_772b9c5a31e1de49f833fca2497ce81c" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de Carabanchel Alto<br>Distrito: CARABANCHEL<br>Contacto: 915 108 506 / 915 108 505 (Información)</div>`)[0];
+            popup_708eeeff34d8dd02e356b39f6dc5a691.setContent(html_772b9c5a31e1de49f833fca2497ce81c);
+        
+
+        circle_marker_54350b9e4713c55873196eb7cf331f46.bindPopup(popup_708eeeff34d8dd02e356b39f6dc5a691)
+        ;
+
+        
+    
+    
+            circle_marker_54350b9e4713c55873196eb7cf331f46.bindTooltip(
+                `<div>
+                     Cementerio de Carabanchel Alto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_78e2eea435f7cc38cddb644a94337ebc = L.circleMarker(
+                [40.53679250322743, -3.7855425467019455],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_27ec3e34627cf3ea949ba86ac6f71aa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c00785dcc5cdbcd32ae49cbc42197d73 = $(`<div id="html_c00785dcc5cdbcd32ae49cbc42197d73" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de El Pardo<br>Distrito: FUENCARRAL-EL PARDO<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_27ec3e34627cf3ea949ba86ac6f71aa6.setContent(html_c00785dcc5cdbcd32ae49cbc42197d73);
+        
+
+        circle_marker_78e2eea435f7cc38cddb644a94337ebc.bindPopup(popup_27ec3e34627cf3ea949ba86ac6f71aa6)
+        ;
+
+        
+    
+    
+            circle_marker_78e2eea435f7cc38cddb644a94337ebc.bindTooltip(
+                `<div>
+                     Cementerio de El Pardo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d1e9d04b8db69054151d6e28a9e26c61 = L.circleMarker(
+                [40.50637279814904, -3.700535601372533],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_b9c743acbbd8f959da9b0af8774ac98f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2efa92f22ff1d662e424b49936a2a878 = $(`<div id="html_2efa92f22ff1d662e424b49936a2a878" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de Fuencarral<br>Distrito: FUENCARRAL-EL PARDO<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_b9c743acbbd8f959da9b0af8774ac98f.setContent(html_2efa92f22ff1d662e424b49936a2a878);
+        
+
+        circle_marker_d1e9d04b8db69054151d6e28a9e26c61.bindPopup(popup_b9c743acbbd8f959da9b0af8774ac98f)
+        ;
+
+        
+    
+    
+            circle_marker_d1e9d04b8db69054151d6e28a9e26c61.bindTooltip(
+                `<div>
+                     Cementerio de Fuencarral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f276a103a46b5f152870ba6c11656174 = L.circleMarker(
+                [40.42561039319567, -3.646855555344436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_edd14505a2ea4d700588b965ca4faf05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abb1d737718885e0d62538ecd8486dd4 = $(`<div id="html_abb1d737718885e0d62538ecd8486dd4" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de La Almudena<br>Distrito: CIUDAD LINEAL<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_edd14505a2ea4d700588b965ca4faf05.setContent(html_abb1d737718885e0d62538ecd8486dd4);
+        
+
+        circle_marker_f276a103a46b5f152870ba6c11656174.bindPopup(popup_edd14505a2ea4d700588b965ca4faf05)
+        ;
+
+        
+    
+    
+            circle_marker_f276a103a46b5f152870ba6c11656174.bindTooltip(
+                `<div>
+                     Cementerio de La Almudena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6e6978c78bd9b872b5d1b059bb6592e8 = L.circleMarker(
+                [40.37773410414961, -3.61786573051584],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_849212181e7fb0d8955257fa4f1d39c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed5d8d2f18a4086ad4fb0540f26da4d8 = $(`<div id="html_ed5d8d2f18a4086ad4fb0540f26da4d8" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de Vallecas<br>Distrito: VILLA DE VALLECAS<br>Contacto: 915 108 469 / 915 108 464 (Información)</div>`)[0];
+            popup_849212181e7fb0d8955257fa4f1d39c7.setContent(html_ed5d8d2f18a4086ad4fb0540f26da4d8);
+        
+
+        circle_marker_6e6978c78bd9b872b5d1b059bb6592e8.bindPopup(popup_849212181e7fb0d8955257fa4f1d39c7)
+        ;
+
+        
+    
+    
+            circle_marker_6e6978c78bd9b872b5d1b059bb6592e8.bindTooltip(
+                `<div>
+                     Cementerio de Vallecas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d9ae7f079943236e79715cf1f230cd5 = L.circleMarker(
+                [40.35611284500212, -3.713244797459868],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_abcded5eabff1ec03fd28a5ed5b2076f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7acaa1235ccf4dac877706123e720792 = $(`<div id="html_7acaa1235ccf4dac877706123e720792" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio de Villaverde<br>Distrito: VILLAVERDE<br>Contacto: 915 108 506 / 915 108 505 (Información)</div>`)[0];
+            popup_abcded5eabff1ec03fd28a5ed5b2076f.setContent(html_7acaa1235ccf4dac877706123e720792);
+        
+
+        circle_marker_7d9ae7f079943236e79715cf1f230cd5.bindPopup(popup_abcded5eabff1ec03fd28a5ed5b2076f)
+        ;
+
+        
+    
+    
+            circle_marker_7d9ae7f079943236e79715cf1f230cd5.bindTooltip(
+                `<div>
+                     Cementerio de Villaverde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_404c575e77876fa63a2241b9de7715ae = L.circleMarker(
+                [40.47201329604833, -3.638733299407961],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_96723770387d35d5d44899477694baec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_512982b176f1ed9e458a75e6f967b079 = $(`<div id="html_512982b176f1ed9e458a75e6f967b079" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Parroquial de Hortaleza<br>Distrito: HORTALEZA<br>Contacto: 616 684 618</div>`)[0];
+            popup_96723770387d35d5d44899477694baec.setContent(html_512982b176f1ed9e458a75e6f967b079);
+        
+
+        circle_marker_404c575e77876fa63a2241b9de7715ae.bindPopup(popup_96723770387d35d5d44899477694baec)
+        ;
+
+        
+    
+    
+            circle_marker_404c575e77876fa63a2241b9de7715ae.bindTooltip(
+                `<div>
+                     Cementerio Parroquial de Hortaleza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2928971688a965274b10cbe75808e73f = L.circleMarker(
+                [40.47426777581313, -3.578424572687106],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_72d56de888323037dbfa7082c773737e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_143d47de9d350b1a797d4c7a8a319ed6 = $(`<div id="html_143d47de9d350b1a797d4c7a8a319ed6" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Parroquial de San Pedro Apostol<br>Distrito: BARAJAS<br>Contacto: 656 979 964</div>`)[0];
+            popup_72d56de888323037dbfa7082c773737e.setContent(html_143d47de9d350b1a797d4c7a8a319ed6);
+        
+
+        circle_marker_2928971688a965274b10cbe75808e73f.bindPopup(popup_72d56de888323037dbfa7082c773737e)
+        ;
+
+        
+    
+    
+            circle_marker_2928971688a965274b10cbe75808e73f.bindTooltip(
+                `<div>
+                     Cementerio Parroquial de San Pedro Apostol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aa2594f2ec32f1b89439f917ace9741b = L.circleMarker(
+                [40.40322475736232, -3.6009374823407354],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_19e1bf10f8a6f6ae7d434326f1c2ef0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c67122742957944b74c5d2771c22266 = $(`<div id="html_5c67122742957944b74c5d2771c22266" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Parroquial de Santa María La Antigua<br>Distrito: VICALVARO<br>Contacto: 917 765 202 (Parroquia) 917 765 267 (Cementerio) 656 979 964 (Oficina)</div>`)[0];
+            popup_19e1bf10f8a6f6ae7d434326f1c2ef0d.setContent(html_5c67122742957944b74c5d2771c22266);
+        
+
+        circle_marker_aa2594f2ec32f1b89439f917ace9741b.bindPopup(popup_19e1bf10f8a6f6ae7d434326f1c2ef0d)
+        ;
+
+        
+    
+    
+            circle_marker_aa2594f2ec32f1b89439f917ace9741b.bindTooltip(
+                `<div>
+                     Cementerio Parroquial de Santa María La Antigua
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_805c247c4c5c316ec2d4bd0c02a9fc80 = L.circleMarker(
+                [40.46077405225064, -3.592309118272398],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_646f838bd4be5165ab62c29e784f8e60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_497bddd5e0dcb4cfda643651deefaa64 = $(`<div id="html_497bddd5e0dcb4cfda643651deefaa64" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Parroquial Nuestra Señora de la Alameda<br>Distrito: BARAJAS<br>Contacto: 917 426 437</div>`)[0];
+            popup_646f838bd4be5165ab62c29e784f8e60.setContent(html_497bddd5e0dcb4cfda643651deefaa64);
+        
+
+        circle_marker_805c247c4c5c316ec2d4bd0c02a9fc80.bindPopup(popup_646f838bd4be5165ab62c29e784f8e60)
+        ;
+
+        
+    
+    
+            circle_marker_805c247c4c5c316ec2d4bd0c02a9fc80.bindTooltip(
+                `<div>
+                     Cementerio Parroquial Nuestra Señora de la Alameda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_43adc8ee0a45c4e704bee3b30d1d2082 = L.circleMarker(
+                [40.3824905560394, -3.752527715032225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_09b53726503d66e38fb79f8f2ed05ad9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7065556e409e120023725d79804e845 = $(`<div id="html_b7065556e409e120023725d79804e845" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Parroquial San Sebastián Mártir<br>Distrito: CARABANCHEL<br>Contacto: 914 610 305</div>`)[0];
+            popup_09b53726503d66e38fb79f8f2ed05ad9.setContent(html_b7065556e409e120023725d79804e845);
+        
+
+        circle_marker_43adc8ee0a45c4e704bee3b30d1d2082.bindPopup(popup_09b53726503d66e38fb79f8f2ed05ad9)
+        ;
+
+        
+    
+    
+            circle_marker_43adc8ee0a45c4e704bee3b30d1d2082.bindTooltip(
+                `<div>
+                     Cementerio Parroquial San Sebastián Mártir
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4873ca96477e18dd80ffc9606f018e3 = L.circleMarker(
+                [40.40061741587043, -3.725670113017977],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_18639f8f47acfb4c1237c388b41c34fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78eafb872c3796b5bb200d57692dfd26 = $(`<div id="html_78eafb872c3796b5bb200d57692dfd26" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Sacramental de San Isidro<br>Distrito: CARABANCHEL<br>Contacto: Oficina Cementerio: 913 650 841 / 913 652 160</div>`)[0];
+            popup_18639f8f47acfb4c1237c388b41c34fa.setContent(html_78eafb872c3796b5bb200d57692dfd26);
+        
+
+        circle_marker_a4873ca96477e18dd80ffc9606f018e3.bindPopup(popup_18639f8f47acfb4c1237c388b41c34fa)
+        ;
+
+        
+    
+    
+            circle_marker_a4873ca96477e18dd80ffc9606f018e3.bindTooltip(
+                `<div>
+                     Cementerio Sacramental de San Isidro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c749cda8ed829752b22fb5d2603e5873 = L.circleMarker(
+                [40.40353167080908, -3.724962034139464],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_55de085eddcd797da35131d500d9e651 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b125b14d9d58d3479a95c270e59fed76 = $(`<div id="html_b125b14d9d58d3479a95c270e59fed76" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Sacramental de San Justo<br>Distrito: CARABANCHEL<br>Contacto: 915 695 631</div>`)[0];
+            popup_55de085eddcd797da35131d500d9e651.setContent(html_b125b14d9d58d3479a95c270e59fed76);
+        
+
+        circle_marker_c749cda8ed829752b22fb5d2603e5873.bindPopup(popup_55de085eddcd797da35131d500d9e651)
+        ;
+
+        
+    
+    
+            circle_marker_c749cda8ed829752b22fb5d2603e5873.bindTooltip(
+                `<div>
+                     Cementerio Sacramental de San Justo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b41cfb536f8c7f8ebeb49d27b3f22e5c = L.circleMarker(
+                [40.39445055613288, -3.7180059223894872],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_ca014da6a21ffcf45a8e24ac85ca7fa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa1efc4b29cca29730df0e3ec01de1a6 = $(`<div id="html_aa1efc4b29cca29730df0e3ec01de1a6" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Sacramental de San Lorenzo y San José<br>Distrito: CARABANCHEL<br>Contacto: 915 695 265</div>`)[0];
+            popup_ca014da6a21ffcf45a8e24ac85ca7fa8.setContent(html_aa1efc4b29cca29730df0e3ec01de1a6);
+        
+
+        circle_marker_b41cfb536f8c7f8ebeb49d27b3f22e5c.bindPopup(popup_ca014da6a21ffcf45a8e24ac85ca7fa8)
+        ;
+
+        
+    
+    
+            circle_marker_b41cfb536f8c7f8ebeb49d27b3f22e5c.bindTooltip(
+                `<div>
+                     Cementerio Sacramental de San Lorenzo y San José
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_abd25e2bd954ced55550b376f29d6785 = L.circleMarker(
+                [40.39855470657746, -3.722716863463],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_6aac1f0a910deef5c255c220186141cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2da15b8a6ce7fe716490d5db8fda1b3 = $(`<div id="html_d2da15b8a6ce7fe716490d5db8fda1b3" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Sacramental de Santa María<br>Distrito: CARABANCHEL<br>Contacto: 914 712 461</div>`)[0];
+            popup_6aac1f0a910deef5c255c220186141cd.setContent(html_d2da15b8a6ce7fe716490d5db8fda1b3);
+        
+
+        circle_marker_abd25e2bd954ced55550b376f29d6785.bindPopup(popup_6aac1f0a910deef5c255c220186141cd)
+        ;
+
+        
+    
+    
+            circle_marker_abd25e2bd954ced55550b376f29d6785.bindTooltip(
+                `<div>
+                     Cementerio Sacramental de Santa María
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f6168eadbfe0ea5a6b2f90da7399973f = L.circleMarker(
+                [40.3679022823185, -3.721835750779592],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_8016904097ca2182272b6e13440d5ded = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18817b10e31f0596712c37bed878c823 = $(`<div id="html_18817b10e31f0596712c37bed878c823" style="width: 100.0%; height: 100.0%;">Nombre: Cementerio Sur<br>Distrito: CARABANCHEL<br>Contacto: 915 108 506 / 915 108 505</div>`)[0];
+            popup_8016904097ca2182272b6e13440d5ded.setContent(html_18817b10e31f0596712c37bed878c823);
+        
+
+        circle_marker_f6168eadbfe0ea5a6b2f90da7399973f.bindPopup(popup_8016904097ca2182272b6e13440d5ded)
+        ;
+
+        
+    
+    
+            circle_marker_f6168eadbfe0ea5a6b2f90da7399973f.bindTooltip(
+                `<div>
+                     Cementerio Sur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ad996c72668a6a43ee5f3596be181de = L.circleMarker(
+                [40.42549402286742, -3.645883300623157],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_1cb8b4155ba8b60032c3b2839a36f38f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68e1cb5003bd3aad9b2a88ae0144df7a = $(`<div id="html_68e1cb5003bd3aad9b2a88ae0144df7a" style="width: 100.0%; height: 100.0%;">Nombre: Crematorio Nuestra Señora de la Almudena<br>Distrito: CIUDAD LINEAL<br>Contacto: 915 108 454</div>`)[0];
+            popup_1cb8b4155ba8b60032c3b2839a36f38f.setContent(html_68e1cb5003bd3aad9b2a88ae0144df7a);
+        
+
+        circle_marker_0ad996c72668a6a43ee5f3596be181de.bindPopup(popup_1cb8b4155ba8b60032c3b2839a36f38f)
+        ;
+
+        
+    
+    
+            circle_marker_0ad996c72668a6a43ee5f3596be181de.bindTooltip(
+                `<div>
+                     Crematorio Nuestra Señora de la Almudena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_45e586e6095a995e6100a1fe81ea9974 = L.circleMarker(
+                [40.36800573540071, -3.722107214102828],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1cf4ebc755b9e855860d4f9ebe32a309);
+        
+    
+        var popup_cee5f9490fc77a2221704b7d2fef45a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a9825419c4d49d203d9f55e39fe0fda = $(`<div id="html_1a9825419c4d49d203d9f55e39fe0fda" style="width: 100.0%; height: 100.0%;">Nombre: Crematorio Sur<br>Distrito: CARABANCHEL<br>Contacto: 918 108 305</div>`)[0];
+            popup_cee5f9490fc77a2221704b7d2fef45a8.setContent(html_1a9825419c4d49d203d9f55e39fe0fda);
+        
+
+        circle_marker_45e586e6095a995e6100a1fe81ea9974.bindPopup(popup_cee5f9490fc77a2221704b7d2fef45a8)
+        ;
+
+        
+    
+    
+            circle_marker_45e586e6095a995e6100a1fe81ea9974.bindTooltip(
+                `<div>
+                     Crematorio Sur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
